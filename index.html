@@ -1,25 +1,98 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title></title>
+        <title>Jose's First Website</title>
+        <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(0, 0, 0);
+               margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(0, 225, 255);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px rgb(0, 0, 0) ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
     </head>
     
     <body>
         <!-- All content goes here -->
         <div> 
             <nav>
-    
+                <h1>Jose's Amazing Website</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li"><a href="index.html"> Home </a></li>
+                    <li class="nav-li"><a href="portfolio.html"> Portfolio </a></li>
+                </ul>
             </nav>
-    
             <main>
+                <!-- Sidebar section -->
                 <div>
-                    <h2>JoseFrancisco Cervantes Lemaire</h2>
-                    
+                    <img class="sidebar-img" src="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"
+                        <h2>JoseFrancisco Cervantes Lemaire</h2>
+                        <p>Student at South Plaquemines High School</p>
+
+                    <div>
+                        <h3>Interests</h3>
+                            <ul>
+                                <li>Computor Science</li>
+                                <li>Video Games</li>
+                                <li>Traveling</li>
+                            </ul>
+                    </div>
                 </div>
-                <!-- Content section -->
-                <div>
-                
-                </div>
+                </main>
             </main>
         </div>
     </body>
