@@ -35,7 +35,7 @@
         createPlatform(475, 350)
         createPlatform(600,550, 0.3, 10)
         createPlatform(650, 600, 0.3, 10)
-        createPlatform(650,)
+        
         /*
          * ground : here, we create a floor. Given the width of of the platform 
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
