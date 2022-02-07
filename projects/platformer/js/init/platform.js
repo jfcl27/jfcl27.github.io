@@ -31,9 +31,9 @@
         createPlatform(100, 345, 0.5);           // normal platform
         createPlatform(350, 550, 0.5)       // small horizontal platform (30% the normal width)
         createPlatform(500, 500, 0.3, 10)   // tall vertical wall (30% the normal width and 10x the height)
-        createPlatform(75,600)
-        createPlatform(475, 350)
-        createPlatform(600,550, 0.3, 10)
+        createPlatform(99,600)
+        createPlatform(425, 375)
+        createPlatform(600,550, 0.3 , 10)
         createPlatform(650, 600, 0.3, 10)
         
         /*
@@ -45,7 +45,7 @@
 
         // example:
         createPlatform(200, 250);
-        createPlatform(120, 460, 0.5);
+        createPlatform(100, 460, 0.8);
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
